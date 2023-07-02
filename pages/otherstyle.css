@@ -1,0 +1,29 @@
+.card-title a{
+    text-decoration: none;
+    color: black;
+}
+.card-title{
+    text-align: center;
+}
+.text-center{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.blog-card{
+    display: contents;
+    cursor: pointer;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.card{
+    margin: 10px;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

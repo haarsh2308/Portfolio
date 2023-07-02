@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bgimage {
+    height:100vh;
+    background: url("Images/background.jpg");
+    background-size:cover;
+    position:relative;
+}
+.navbar-brand img{
+    height: 70px;
+}
+.navbar-nav {
+    margin-left: 70%;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    align-self: flex-end;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: black;
+    background-color: #808080;
+    border: #808080;
+}
+.nav-link{
+    border: solid 0.01rem white;
+    margin: 0.01rem;
+    border-radius: 1rem;
+}
+.navbarScroll.navbarDark {
+    background-color: #252525;
+}
+/* text css above hero image*/
+
+.imageAboutPage {
+    width: 80%;
+    margin-left: 10%;
+}
+.servicesText.card {
+    height: 100px;
+    cursor: pointer;
+}
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-title a{
+    color: #000000;
+    text-decoration: none;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+/* footer styling */
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.wrap{
+    display: inline-flex;
+}
+
+.social
+{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social-icons li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.social img{
+    width : 50px;
+}
+.hero_title{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+}
+.hero_desc{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.head_1{
+    top: 30%;
+    left: 10%;
+}
+.head_2{
+    top: 40%;
+    left: 10%;
+}
+.head_3{
+    top: 50%;
+    left: 10%;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.text{
+    position: relative;
+    color: white;
+}
+.first-text
+{
+    color: black;
+    top: 10%;
+}
+.sec-text::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #525252;
+    border-left: 2px solid black;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+.row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
