@@ -911,4 +911,6 @@ h6 {
   color: var(--color-primary);
 }
 
-
+#presentation .row .card embed{
+  overflow: hidden;
+}
