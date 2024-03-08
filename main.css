@@ -601,12 +601,13 @@ h6 {
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
-.file{
+#resume .file{
   display: flex;
   justify-content: center;
 }
-.file embed{
-  height: 600px;
+#resume .file img{
+  margin-left: 60%;
+  margin-right: 60%;
 }
 .resume .btn-get-started {
   font-family: var(--font-primary);
@@ -911,6 +912,3 @@ h6 {
   color: var(--color-primary);
 }
 
-#presentation .row .card embed{
-  overflow: hidden;
-}
